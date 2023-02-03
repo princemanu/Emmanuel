@@ -1,0 +1,17 @@
+/* THe user to enter age and name */
+fun main() {
+insertname()
+}
+fun name(){
+      val x: String = "Emmanuel Ronoh"
+      val y: Int = 20
+    println("My name is:${x} aged ${y} years")
+}
+fun insertname(){
+    print("Enter your name")
+    val myname:String=readLine()!!
+    val y: Int = 20
+    print("Enter your Age")
+    val age:Int = readLine()!!.toInt()
+    println("My name is:${myname} aged ${age} years")
+}
