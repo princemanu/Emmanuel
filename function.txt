@@ -6,10 +6,7 @@ println(name("Princess", 9))
  println(name())
 }
 fun name(name:String="Emmanuel",  age: Int=1):String{
-    val name="$name"
-    val age=age
-      val myname: String = "My name is:${name}"
-      val myage: String = "My age is:${age}"
-    //println("My name is:${x} aged ${y} years")
-    return "${myname}  ${myage}"
+    val name="my name is $name"
+    val age="I am $age years old"
+    return "$name  $age"
 }
