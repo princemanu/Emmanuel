@@ -1,0 +1,8 @@
+/* Online Kotlin Compiler */
+fun main() {
+    print("Enter your name")
+    val myname:String=readLine()!!
+    print("Enter your course")
+    val course:String=readLine()!!
+    println(" Welcome to our tutorials ${myname} from the course of ${course}. we would like to see you again.")
+}
